@@ -1,0 +1,47 @@
+/* Estilo para el contenedor principal */
+.hello-container {
+    text-align: center;  /* Centra el texto */
+    background-color: #f5f5f5;  /* Color de fondo suave */
+    padding: 20px;  /* Espaciado interno */
+    border-radius: 10px;  /* Bordes redondeados */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);  /* Sombra ligera */
+    max-width: 600px;  /* Limita el ancho máximo */
+    margin: 50px auto;  /* Centra el contenedor en la página */
+  }
+  
+  /* Estilo para el título (h1) */
+  h1 {
+    color: #3498db;  /* Azul bonito */
+    font-family: 'Arial', sans-serif;  /* Fuente más moderna */
+    font-size: 2.5em;  /* Tamaño del texto */
+    margin-bottom: 10px;
+  }
+  
+  /* Estilo para el párrafo (p) */
+  p {
+    color: #333;  /* Texto del cuerpo en gris oscuro */
+    font-size: 1.2em;  /* Tamaño del texto un poco más grande */
+    font-family: 'Verdana', sans-serif;
+    margin-bottom: 20px;
+  }
+  
+  /* Estilo para el botón */
+  .action-button {
+    background-color: #2ecc71;  /* Verde suave */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1.1em;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .action-button:hover {
+    background-color: #27ae60;  /* Cambia el color al pasar el cursor */
+  }
+  
+  .action-button:active {
+    background-color: #1e8449;  /* Cambia el color cuando se presiona */
+  }
+  
